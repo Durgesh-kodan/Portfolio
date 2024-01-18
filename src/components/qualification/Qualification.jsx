@@ -28,7 +28,7 @@ const Qualifiaction = () => {
                 ? "qualification__button qualifiaction__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={() => toggleTab-(2)}
+            onClick={() => toggleTab(2)}
           >
             <i className="bx bx-briefcase qualification__icon"></i> Experience
           </div>
