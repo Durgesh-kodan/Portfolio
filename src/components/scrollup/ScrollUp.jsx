@@ -1,8 +1,8 @@
 import "./scrollup.css";
 const Scrollup = () => {
-  window.addEventListener("scroll", function () {
+  window.addEventListener("scroll",  () => {
     const scrollup = document.querySelector(".scrollup");
-    if (this.scrollY >= 560) scrollup.classList.add("show-scroll");
+    if (window.scrollY >= 560) scrollup.classList.add("show-scroll");
     else scrollup.classList.remove("show-scroll");
   })
   return (
