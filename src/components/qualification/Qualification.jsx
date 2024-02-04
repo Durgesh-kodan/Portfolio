@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./qualification.css";
-const Qualifiaction = () => {
+const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
     setToggleState(index);
   };
 
   return (
-    <section className="qualification section" id="qualifiaction">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
       <div className="qualification__container container">
@@ -15,7 +15,7 @@ const Qualifiaction = () => {
           <div
             className={
               toggleState === 1
-                ? "qualification__button qualifiaction__active button--flex"
+                ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
             onClick={() => toggleTab(1)}
@@ -25,7 +25,7 @@ const Qualifiaction = () => {
           <div
             className={
               toggleState === 2
-                ? "qualification__button qualifiaction__active button--flex"
+                ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
             onClick={() => toggleTab(2)}
@@ -33,7 +33,7 @@ const Qualifiaction = () => {
             <i className="bx bx-briefcase qualification__icon"></i> Experience
           </div>
         </div>
-        <div className="qualifiaction__sections">
+        <div className="qualification__sections">
           <div
             className={
               toggleState === 1
@@ -156,4 +156,4 @@ const Qualifiaction = () => {
   );
 };
 
-export default Qualifiaction;
+export default Qualification;
