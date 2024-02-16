@@ -1,18 +1,26 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
 const Contact = () => {
   const form = useRef();
 
+  const [showPopup, setShowPopup] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_0ranboe",
-      "template_t8bgpoa",
-      form.current,
-      "qG_ySR5NvFn34SBwp"
-    );
+    emailjs
+      .sendForm(
+        "service_0ranboe",
+        "template_t8bgpoa",
+        form.current,
+        "qG_ySR5NvFn34SBwp"
+      )
+      .then(() => {
+        setShowPopup(true);
+        setTimeout(() => setShowPopup(false), 5000);
+      });
+
     e.target.reset();
   };
 
@@ -124,6 +132,11 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
+            {showPopup && (
+              <div className="popup">
+                <p>Message sent!</p>
+              </div>
+            )}
           </form>
         </div>
       </div>
