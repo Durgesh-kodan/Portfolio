@@ -1,6 +1,5 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 const About = () => {
   return (
@@ -16,7 +15,7 @@ const About = () => {
             I have years of experience. Frontend developer, I create web pages
             with UI / UX user interface.
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a href="https://drive.google.com/file/d/1Zalu8v6HONYTiDoNyTE7y8IetbXgFhvU/view" className="button button--flex" target="_blank" rel="noopener noreferrer">
             Download CV
             <svg
               className="button__icon"

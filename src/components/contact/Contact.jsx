@@ -30,7 +30,7 @@ const Contact = () => {
       <span className="section__subtitle">Contact me</span>
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Message me on intagram</h3>
+          <h3 className="contact__title">Message me on my socials</h3>
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bxl-gmail contact__card-icon"></i>
@@ -52,7 +52,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">8607575500</span>
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=8607575500&text=Hello, more information!"
                 className="contact__button"
               >
                 write me
@@ -65,8 +65,7 @@ const Contact = () => {
               <h3 className="contact__card-title">LinkedIn</h3>
               <span className="contact__card-data">durgesh-kodan</span>
               <a
-                href="https://m.me/crypticalcoder
-"
+                href="www.linkedin.com/in/durgesh-kodan-a70302204"
                 className="contact__button"
               >
                 write me
@@ -76,7 +75,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__content">
-          <h3 className="contact__title">Message me on whatsapp</h3>
+          <h3 className="contact__title">Message me directly</h3>
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>

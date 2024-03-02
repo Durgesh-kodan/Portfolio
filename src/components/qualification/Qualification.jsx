@@ -30,7 +30,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="bx bx-briefcase qualification__icon"></i> Experience
+            <i className="bx bx-briefcase qualification__icon"></i> Learning
           </div>
         </div>
         <div className="qualification__sections">

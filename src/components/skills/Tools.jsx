@@ -1,7 +1,9 @@
-const Frontend = () => {
-  return (
-    <div className="skills__content">
-      <h3 className="skills__title">Frontend Developer</h3>
+
+const Tools = () => {
+    return (
+        <div>
+            <div className="skills__content">
+      <h3 className="skills__title">Developer Tools</h3>
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
@@ -51,7 +53,8 @@ const Frontend = () => {
         </div>
       </div>
     </div>
-  );
-};
+        </div>
+    )
+}
 
-export default Frontend;
+export default Tools

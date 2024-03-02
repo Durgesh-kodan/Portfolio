@@ -1,5 +1,6 @@
 import Frontend from "./Frontend.jsx";
 import Backend from "./Backend.jsx";
+import Tools from "./Tools.jsx";
 import "./skills.css";
 
 const Skills = () => {
@@ -10,6 +11,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend/>
         <Backend/>
+        <Tools/>
       </div>
     </section>
   );
