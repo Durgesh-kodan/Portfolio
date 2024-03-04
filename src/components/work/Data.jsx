@@ -8,32 +8,42 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
+    title: "Homyz",
+    category: "MErn",
+    link:"https://real-estate-buy.vercel.app/",
+    gitlink:"https://github.com/Durgesh-kodan/real-estate-react-project"
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
+    title: "MoviX",
+    category: "mern",
+    link:"https://movie-x-pi.vercel.app/",
+    gitlink:"https://github.com/Durgesh-kodan/MovieX"
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "design",
+    title: "Reddit-clone",
+    category: "nextjs",
+    link:"https://github.com/Durgesh-kodan/reddit-clone",
+    gitlink:"https://github.com/Durgesh-kodan/reddit-clone"
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
-    category: "app",
+    title: "Golang-Auth",
+    category: "golang",
+    link:"https://github.com/Durgesh-kodan/go-lang_crud",
+    gitlink:"https://github.com/Durgesh-kodan/go-lang_crud"
   },
   {
     id: 5,
     image: Work5,
-    title: "Web design",
+    title: "More Projects",
     category: "web",
+    link:"https://github.com/Durgesh-kodan?tab=repositories",
+    gitlink:"https://github.com/Durgesh-kodan?tab=repositories"
   },
 ];
 
@@ -42,12 +52,12 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "MERN",
   },
   {
-    name: "app",
+    name: "NextJs",
   },
   {
-    name: "design",
+    name: "GoLang",
   },
 ];

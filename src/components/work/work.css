@@ -55,9 +55,29 @@
   font-size: 1rem;
   transition: 0.4s;
 }
+.work__button-git {
+  font-size: 1.25rem;
+  transition: 0.8s;
+}
+
+.work__button-word{
+  font-size: 1rem;
+  transition: 0.4s;
+}
 
 .work__button:hover .work__button-icon {
+  color: var(--title-color-dark);
   transform: translateX(0.25rem);
+}
+
+
+.work__button:hover .work__button-git {
+  color: var(--title-color-dark);
+  transform: scale(1.5);
+}
+
+.work__button-word:hover {
+  color: var(--title-color-dark);
 }
 
 .active-work {

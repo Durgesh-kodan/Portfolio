@@ -12,9 +12,9 @@ const Backend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-python"></i>
+          <i className='bx bxl-go-lang' ></i>
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">Golang</h3>
               <span className="skills__level">basic</span>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Backend = () => {
             <i className="bx bxl-firebase"></i>
             <div>
               <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>

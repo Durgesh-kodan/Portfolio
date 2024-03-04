@@ -43,7 +43,7 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">B.Tech (CSE)</h3>
                 <span className="qualification__subtitle">IIIT Bhopal</span>
                 <div className="qualification__calender">
                   <i className="bx bxs-calendar"></i>2020-present
@@ -62,20 +62,20 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX designer</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
+                <h3 className="qualification__title">Higher Secondary</h3>
+                <span className="qualification__subtitle">RPS Khatod</span>
                 <div className="qualification__calender">
-                  <i className="bx bxs-calendar"></i>2022-present
+                  <i className="bx bxs-calendar"></i>2019-2020
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
+                <h3 className="qualification__title">High-School</h3>
+                <span className="qualification__subtitle">GIS kablana</span>
                 <div className="qualification__calender">
-                  <i className="bx bxs-calendar"></i>2020-present
+                  <i className="bx bxs-calendar"></i>2017-2018
                 </div>
               </div>
               <div>
@@ -84,20 +84,6 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">web design</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
-                <div className="qualification__calender">
-                  <i className="bx bxs-calendar"></i>2020-present
-                </div>
-              </div>
-            </div>
           </div>
 
           <div
@@ -109,8 +95,8 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Design</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
+                <h3 className="qualification__title">Mern-Stack</h3>
+                <span className="qualification__subtitle">Intermediate</span>
                 <div className="qualification__calender">
                   <i className="bx bxs-calendar"></i>2020-present
                 </div>
@@ -128,8 +114,8 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX designer</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
+                <h3 className="qualification__title">DevOps</h3>
+                <span className="qualification__subtitle">Intermediate</span>
                 <div className="qualification__calender">
                   <i className="bx bxs-calendar"></i>2022-present
                 </div>
@@ -138,10 +124,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">IIIT Bhopal</span>
+                <h3 className="qualification__title">Python-Django</h3>
+                <span className="qualification__subtitle">Beginner</span>
                 <div className="qualification__calender">
-                  <i className="bx bxs-calendar"></i>2020-present
+                  <i className="bx bxs-calendar"></i>2023-present
                 </div>
               </div>
               <div>

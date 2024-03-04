@@ -16,7 +16,7 @@ const Info = () => {
       <div className="about__box">
         <i className="bx bx-chevron-right-circle about__icon"></i>
         <h3 className="about__title">Currently</h3>
-        <span className="about__subtitle">Pursuing Degree</span>
+        <span className="about__subtitle">Doing Bachelors</span>
       </div>
     </div>
   );

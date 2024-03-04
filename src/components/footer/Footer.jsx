@@ -24,20 +24,35 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-          <a href="" className="footer__social-link" target="_blank">
-            <i className="uil uil-instagram"></i>
+          <a
+            href="https://www.instagram.com/durgeshkodan/"
+            className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="bx bxl-instagram"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_blank">
+          <a
+            href="www.linkedin.com/in/durgesh-kodan-a70302204"
+            className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bx bxl-linkedin-square"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_blank">
+          <a
+            href="https://github.com/Durgesh-kodan"
+            className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="uil uil-github-alt"></i>
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Durgesh. All rights reserved.
+          &#169; Durgesh. All rights reserved
         </span>
       </div>
     </footer>

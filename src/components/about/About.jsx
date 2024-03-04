@@ -7,15 +7,21 @@ const About = () => {
       <h2 className="section__title">About me</h2>
       <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
-        <img src={AboutImg} className="about__img"  alt=""/>
+        <img src={AboutImg} className="about__img" alt="" />
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience. Frontend developer, I create web pages
-            with UI / UX user interface.
+            I am a MERN developer student at IIIT Bhopal, m deeply interested in
+            Linux and passionate about mastering data structures & algorithms
+            and DevOps. I am committed to advancing my skills in these areas to
+            contribute effectively in software engineering projects.
           </p>
-          <a href="https://drive.google.com/file/d/1Zalu8v6HONYTiDoNyTE7y8IetbXgFhvU/view" className="button button--flex" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1Zalu8v6HONYTiDoNyTE7y8IetbXgFhvU/view"
+            className="button button--flex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
             <svg
               className="button__icon"

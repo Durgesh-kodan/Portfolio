@@ -12,16 +12,16 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-javascript"></i>
+          <i className='bx bxl-bootstrap' ></i>
             <div>
-              <h3 className="skills__name">Javascript</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Bootstrap</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-css3"></i>
+            <i className="bx bxl-javascript"></i>
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills__name">Javascript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -30,21 +30,21 @@ const Frontend = () => {
           <div className="skills__data">
             <i className="bx bxl-react"></i>
             <div>
-              <h3 className="skills__name">ReactJs</h3>
+              <h3 className="skills__name">ReactJS</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-git"></i>
+          <i className='bx bxl-typescript' ></i>
             <div>
-              <h3 className="skills__name">GIT</h3>
+              <h3 className="skills__name">Typescript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-sass"></i>
+          <i className='bx bxl-tailwind-css'></i>
             <div>
-              <h3 className="skills__name">Sass</h3>
+              <h3 className="skills__name">Tailwind</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

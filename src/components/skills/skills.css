@@ -1,12 +1,16 @@
 .skills__container {
-  grid-template-columns: repeat(2, 350px);
-  column-gap: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 .skills__content {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 2rem 4rem;
+  padding: 2rem;
   border-radius: 1.25rem;
 }
 
@@ -21,6 +25,7 @@
   display: flex;
   justify-content: center;
   column-gap: 2.5rem;
+  padding: 10px;
 }
 
 .skills__group {
@@ -61,28 +66,27 @@
 }
 
 @media screen and (max-width: 992px) {
-    .skills__container {
-      grid-template-columns: max-content;
-      row-gap: 2rem;
-    }
+  .skills__container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
   }
-  
-  @media screen and (max-width: 576px) {
-    .skills__container {
-      grid-template-columns: 1fr;
-    }
-    .skills__content {
-      padding: 1.5rem;
-    }
+}
+
+@media screen and (max-width: 576px) {
+  .skills__container {
+    grid-template-columns: 1fr;
   }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
-    .skills__box {
-      column-gap: 1.25rem;
-    }
-    .skills__name {
-      font-size: var(--small-font-size);
-    }
+  .skills__content {
+    padding: 1.5rem;
   }
-  
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .skills__box {
+    column-gap: 1.25rem;
+  }
+  .skills__name {
+    font-size: var(--small-font-size);
+  }
+}
